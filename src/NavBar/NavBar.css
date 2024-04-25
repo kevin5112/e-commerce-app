@@ -1,4 +1,21 @@
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  color: black;
+}
+
 .nav-bar-root {
   display: flex;
-  gap: 15px;
+  gap: 50px;
+  margin: 18px;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.linkActive {
+  text-decoration: underline;
+  color: black;
 }

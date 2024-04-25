@@ -2,9 +2,16 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  background-color: white;
+  box-sizing: border-box;
+}
 
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+#root {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: 100%;
 }
 
 a {
